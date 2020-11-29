@@ -7,12 +7,14 @@ import Torahack from '../assets/img/torahack.png'
 
 
 const Chat = (props) => {
+  // isQuestionにtrueかfalseが入る
   const isQuestion = (props.type === 'question');
   const classes = isQuestion ? 'p-chat__row' : 'p-chat__reverse';
 
   return (
     <ListItem className={classes}>
       <ListItemAvatar>
+        {/* return内での条件分岐 */}
         {isQuestion ? (
           <Avatar alt="icon" src={Torahack} />
         ) : (
