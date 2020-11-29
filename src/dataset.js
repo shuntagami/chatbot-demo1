@@ -6,7 +6,7 @@ const defaultDataset = {
             {content: "学習コミュニティについて知りたい", nextId: "community"},
             {content: "お付き合いしたい", nextId: "dating"},
         ],
-        question: "こんにちは！🐯トラハックへのご用件はなんでしょうか？",
+        question: "ねえ、今どんな気持ち？",
     },
     "job_offer": {
         answers: [
@@ -47,7 +47,7 @@ const defaultDataset = {
     },
     "consultant": {
         answers: [
-            {content: "YouTubeで動画を見る", nextId: "https://www.youtube.com/channel/UC-bOAxx-YOsviSmqh8COR0w"},
+            {content: "YouTubeで動画を見る", nextId: "https://www.youtube.com/watch?v=aQJAMiJakU4&t=61s"},
             {content: "学習コミュニティについて知りたい", nextId: "community"},
             {content: "最初の質問に戻る", nextId: "init"}
         ],
